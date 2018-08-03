@@ -44,7 +44,7 @@ class DbAluno(Model):
         if self.create(**kwargs):
             return True
 
-    def update_aluno(self, update_id, nome, senha, turma='0', escola='0', rede='0'):
+    def update_aluno(self, update_id, nome, senha, vinculo_turma='0', vinculo_escola='0', vinculo_rede='0'):
 
         aluno_up = self.load(update_id)
         [setattr(aluno_up, parametro, valor) for parametro, valor in locals().items() if
@@ -111,7 +111,7 @@ class DbAluno(Model):
     def search_aluno_by_escola(self, escola):
         alunos = []
 
-        for search in DbAluno.query((DbAluno.vinculo_escola == escola), order_by=DbAluno.nome):
+        for search in DbAluno.query(DbAluno.vinculo_escola == escola, order_by=DbAluno.nome):
             alunos.append(
                 dict(
                     id=search.id, matricula=search.matricula, nome=search.nome, senha=search.senha,
