@@ -1,0 +1,234 @@
+.bg{
+
+	background:url("img/tela-login_fundo.png");
+
+}
+.bg_login{
+	background:url("img/fundo-copy.png");
+}
+
+#Login{
+	border-radius: .25rem;
+	display: block;
+}
+
+#login-img{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top: 158px;
+	left: 300px;
+	max-width:400px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+#Login-div{
+	position: relative;
+	bottom: 150px;
+}
+
+
+
+
+.content-login {
+	/*background: url(../img/fundo-copy.png) 0 0 no-repeat;*/
+	width: 90%;
+	height: 789px;
+	margin-left: 4%;
+}
+
+.cartoons-pass{
+	clear: both;
+}
+
+.cartoons-pass .box-cartoons {
+
+    width: 70px;
+    height: 70px;
+    border: 1px solid #146118;
+    float: left;
+    position: relative;
+    top: 250px;
+    left: 180px;
+    background-color: rgba(113, 194, 117, 0.5);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	text-align: center;
+    padding: 4px 0 0 0;
+
+}
+ /*.box-cartoons:active {
+	background-color: green;
+}*/
+
+.professor{
+	position: relative;
+	float: left;
+	left: 650px;
+	top: 300px;
+
+}
+
+#professor-seta{
+	margin: 0;
+	padding: 0;
+	border:0;
+	position: relative;
+	right: 15%;
+	top: 35px;
+}
+
+.student{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	position: relative;
+	top: 300px;
+	right: 50px;
+	float: left;
+	}
+#aluno-seta{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	bottom: 24px;
+}
+
+.lost-pass{
+	color: #90EE90;
+	text-decoration: underline;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	bottom: 29px;
+	right: 110px;
+}
+
+.class_email{
+	padding: 0;
+	border:0;
+	margin-bottom: 30px;
+}
+.class_senha{
+	padding: 0;
+	margin: 0;
+}
+.professor-text{
+	font-family: "Roboto", sans-serif;
+	color: #FFFFFF;
+	text-shadow: 4px 6px 8px #000000;
+	margin: 0;
+	border: 0;
+}
+
+/* Botoes */
+#botao_aluno {
+
+
+    width: 110px;
+    height: 47px;
+    border: 0;
+    margin-left: 0px;
+    background: url('img/btn-aluno.png') 0 0 no-repeat;
+		margin-left:0;
+		padding: 0;
+		border:0;
+		position: relative;
+		top: 280px;
+		left: 260px;
+
+}
+
+#btn-professor{
+	background: url('img/btn-prof.png') 0 0 no-repeat;
+	border: 0;
+	width: 105px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    left: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.pass #btn-interrogacao{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top: 420px;
+	right: 155px;
+
+
+}
+/*.btn-login-pass button{
+	background: url(../img/btn-aluno.png) 0 0 no-repeat;
+	margin-left:0;
+	padding: 0;
+	border:0;
+	position: relative;
+	top: 300px;
+	left: 150px;
+
+
+}*/
+
+
+#aluno{
+	position: relative;
+	bottom: 20px;
+	margin-bottom: 20px;
+	font-family: "Roboto", sans-serif;
+	color: #FFFFFF;
+	text-shadow: 4px 6px 8px #000000;
+}
+
+.student label{
+	font-family: "Roboto", sans-serif;
+	color: #FFFFFF;
+	text-shadow: 4px 6px 8px #000000;
+}
+
+.pass-title{
+	font-family: "janda_manatee_solidregular";
+	font-size: 120%;
+	color: #FFFFFF;
+	text-shadow: 4px 4px 8px #000000;
+	position:relative;
+	top: 420px;
+	right: 250px;
+}
+
+cartoons-pass figure:hover img,figure.hover img {
+
+   	width: 70px;
+    height: 70px;
+    border: 1px solid #146118;
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	text-align: center;
+    padding: 4px 0 0 0;
+}
+
+.cartoons-pass .box-cartoons:hover {
+  background-color: rgba(229, 255, 84, 0.5);
+}
+
+.on {
+  -webkit-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.logo{
+    position: relative;
+    bottom: 70px;
+}
+
+

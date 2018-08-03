@@ -1,0 +1,39 @@
+table.table-bordered{
+    border:2px solid #fff;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:2px solid #fff;
+}
+table.table-bordered > tbody > tr > td{
+    border:2px solid #fff;
+}
+
+.checkbox-group{
+  font-size: 13.31px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.text-rel{
+  font-size:27px;
+  font-family: Arial;
+  color:#299ae8;
+}
+.portugues{
+  margin-right: 10px;
+}
+.nome_aluno{
+  text-transform:uppercase;
+  font-size:27px;
+  color:#299ae8;
+  display: inline-block;
+  
+}
+
+input {
+
+  vertical-align: middle;
+  position: relative;
+  top: 3px;
+}

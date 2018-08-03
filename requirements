@@ -1,0 +1,6 @@
+Versão plataforma == 0.9 Xunil
+bottle >= 0.12
+walrus >= 0.5.1
+Passlib >= 1.7.1
+webtest >= 2.0.30
+Gunicorn >= 19.9.0
